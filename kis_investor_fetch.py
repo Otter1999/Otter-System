@@ -58,9 +58,6 @@ def investor_flow(token, code):
 
 
 def main():
-    # Issue the OAuth token exactly ONCE for the whole run and reuse it for
-    # every stock (KIS limits token issuance to 1 per minute per appkey;
-    # re-issuing it inside a retry loop is what broke the previous run).
     token = get_token()
     results = {}
 
@@ -70,15 +67,20 @@ def main():
         for attempt in range(3):
             data = investor_flow(token, code)
             last = data
-            if not data.get("error") and data.get("rt_cd") == "0":
-                results[code] = {"name": name, "data": data}
+            if not data.get("error") and data.get("rt_cd") == "0" and data.get("output"):
+                latest = data["output"][0]
+                results[code] = {
+                    "name": name,
+                    "date": latest.get("stck_bsop_date"),
+                    "frgn_ntby_tr_pbmn": latest.get("frgn_ntby_tr_pbmn"),
+                    "orgn_ntby_tr_pbmn": latest.get("orgn_ntby_tr_pbmn"),
+                    "prsn_ntby_tr_pbmn": latest.get("prsn_ntby_tr_pbmn"),
+                }
                 ok = True
                 break
-            # rate-limited or transient error: back off and retry with the
-            # SAME token, never fetch a new one here.
             time.sleep(2.0)
         if not ok:
-            results[code] = {"name": name, "data": None, "failed": True, "last_error": last}
+            results[code] = {"name": name, "failed": True, "last_error": last}
             print(f"FAILED: {name}({code}) -> {last}")
         else:
             print(f"OK: {name}({code})")
