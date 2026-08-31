@@ -1,0 +1,25 @@
+name: KIS Investor Flow Daily
+
+on:
+  schedule:
+    - cron: '30 22 * * 0-4'
+  workflow_dispatch: {}
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - env:
+          KIS_APPKEY: ${{ secrets.KIS_APPKEY }}
+          KIS_APPSECRET: ${{ secrets.KIS_APPSECRET }}
+        run: python kis_investor_fetch.py
+      - run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add data/investor_flow.json
+          git commit -m "update" || echo "no changes"
+          git push
