@@ -1,5 +1,6 @@
 name: KIS Investor Flow Daily
-
+permissions:
+  contents: write
 on:
   schedule:
     - cron: '30 22 * * 0-4'
