@@ -68,16 +68,25 @@ def main():
             data = investor_flow(token, code)
             last = data
             if not data.get("error") and data.get("rt_cd") == "0" and data.get("output"):
-                latest = data["output"][0]
-                results[code] = {
-                    "name": name,
-                    "date": latest.get("stck_bsop_date"),
-                    "frgn_ntby_tr_pbmn": latest.get("frgn_ntby_tr_pbmn"),
-                    "orgn_ntby_tr_pbmn": latest.get("orgn_ntby_tr_pbmn"),
-                    "prsn_ntby_tr_pbmn": latest.get("prsn_ntby_tr_pbmn"),
-                }
-                ok = True
-                break
+                # output은 최근 며칠치 배열이며 output[0]은 "오늘" 자리인데,
+                # 장중/정산 전에는 오늘 칸 숫자가 빈 문자열로 온다.
+                # 그래서 무조건 output[0]을 쓰지 않고, 실제 값이 채워진
+                # 가장 최근 칸(확정된 마지막 거래일)을 찾아서 사용한다.
+                latest = None
+                for row in data["output"]:
+                    if row.get("frgn_ntby_tr_pbmn"):
+                        latest = row
+                        break
+                if latest:
+                    results[code] = {
+                        "name": name,
+                        "date": latest.get("stck_bsop_date"),
+                        "frgn_ntby_tr_pbmn": latest.get("frgn_ntby_tr_pbmn"),
+                        "orgn_ntby_tr_pbmn": latest.get("orgn_ntby_tr_pbmn"),
+                        "prsn_ntby_tr_pbmn": latest.get("prsn_ntby_tr_pbmn"),
+                    }
+                    ok = True
+                    break
             time.sleep(2.0)
         if not ok:
             results[code] = {"name": name, "failed": True, "last_error": last}
