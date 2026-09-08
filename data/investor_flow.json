@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T07:12:13Z",
+  "updated_at": "2026-09-08T21:45:29Z",
   "results": {
     "015760": {
       "name": "한국전력",
@@ -19,8 +19,8 @@
       "name": "HD현대일렉트릭",
       "date": "20260908",
       "frgn_ntby_tr_pbmn": "-15866",
-      "orgn_ntby_tr_pbmn": "-4735",
-      "prsn_ntby_tr_pbmn": "20011"
+      "orgn_ntby_tr_pbmn": "-4800",
+      "prsn_ntby_tr_pbmn": "20076"
     },
     "084370": {
       "name": "유진테크",
@@ -33,8 +33,8 @@
       "name": "한미반도체",
       "date": "20260908",
       "frgn_ntby_tr_pbmn": "53279",
-      "orgn_ntby_tr_pbmn": "23631",
-      "prsn_ntby_tr_pbmn": "-75471"
+      "orgn_ntby_tr_pbmn": "23638",
+      "prsn_ntby_tr_pbmn": "-75478"
     },
     "067310": {
       "name": "하나마이크론",
@@ -152,8 +152,8 @@
       "name": "대한항공",
       "date": "20260908",
       "frgn_ntby_tr_pbmn": "14852",
-      "orgn_ntby_tr_pbmn": "7034",
-      "prsn_ntby_tr_pbmn": "-20876"
+      "orgn_ntby_tr_pbmn": "7000",
+      "prsn_ntby_tr_pbmn": "-20842"
     },
     "214450": {
       "name": "파마리서치",
