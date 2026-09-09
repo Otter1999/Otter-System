@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T07:12:26Z",
+  "updated_at": "2026-09-09T21:45:58Z",
   "results": {
     "015760": {
       "name": "한국전력",
@@ -11,16 +11,16 @@
     "052690": {
       "name": "한전기술",
       "date": "20260909",
-      "frgn_ntby_tr_pbmn": "-17360",
-      "orgn_ntby_tr_pbmn": "-3470",
+      "frgn_ntby_tr_pbmn": "-17359",
+      "orgn_ntby_tr_pbmn": "-3471",
       "prsn_ntby_tr_pbmn": "21051"
     },
     "267260": {
       "name": "HD현대일렉트릭",
       "date": "20260909",
       "frgn_ntby_tr_pbmn": "19579",
-      "orgn_ntby_tr_pbmn": "-10850",
-      "prsn_ntby_tr_pbmn": "-8223"
+      "orgn_ntby_tr_pbmn": "-10881",
+      "prsn_ntby_tr_pbmn": "-8191"
     },
     "084370": {
       "name": "유진테크",
@@ -33,21 +33,21 @@
       "name": "한미반도체",
       "date": "20260909",
       "frgn_ntby_tr_pbmn": "-14247",
-      "orgn_ntby_tr_pbmn": "7350",
-      "prsn_ntby_tr_pbmn": "6515"
+      "orgn_ntby_tr_pbmn": "7438",
+      "prsn_ntby_tr_pbmn": "6427"
     },
     "067310": {
       "name": "하나마이크론",
       "date": "20260909",
       "frgn_ntby_tr_pbmn": "-8610",
-      "orgn_ntby_tr_pbmn": "-1706",
-      "prsn_ntby_tr_pbmn": "10416"
+      "orgn_ntby_tr_pbmn": "-1704",
+      "prsn_ntby_tr_pbmn": "10413"
     },
     "095610": {
       "name": "테스",
       "date": "20260909",
       "frgn_ntby_tr_pbmn": "3928",
-      "orgn_ntby_tr_pbmn": "2691",
+      "orgn_ntby_tr_pbmn": "2692",
       "prsn_ntby_tr_pbmn": "-6614"
     },
     "356860": {
@@ -102,9 +102,9 @@
     "006360": {
       "name": "GS건설",
       "date": "20260909",
-      "frgn_ntby_tr_pbmn": "1875",
+      "frgn_ntby_tr_pbmn": "1877",
       "orgn_ntby_tr_pbmn": "5620",
-      "prsn_ntby_tr_pbmn": "-7348"
+      "prsn_ntby_tr_pbmn": "-7350"
     },
     "028260": {
       "name": "삼성물산",
@@ -152,8 +152,8 @@
       "name": "대한항공",
       "date": "20260909",
       "frgn_ntby_tr_pbmn": "35558",
-      "orgn_ntby_tr_pbmn": "-20006",
-      "prsn_ntby_tr_pbmn": "-15307"
+      "orgn_ntby_tr_pbmn": "-20005",
+      "prsn_ntby_tr_pbmn": "-15306"
     },
     "214450": {
       "name": "파마리서치",
