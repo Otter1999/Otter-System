@@ -1,166 +1,166 @@
 {
-  "updated_at": "2026-09-15T07:12:58Z",
+  "updated_at": "2026-09-15T21:44:51Z",
   "results": {
     "015760": {
       "name": "한국전력",
       "date": "20260915",
-      "frgn_ntby_tr_pbmn": "-9711",
-      "orgn_ntby_tr_pbmn": "-9624",
-      "prsn_ntby_tr_pbmn": "19156"
+      "frgn_ntby_tr_pbmn": "-9708",
+      "orgn_ntby_tr_pbmn": "-9747",
+      "prsn_ntby_tr_pbmn": "19306"
     },
     "052690": {
       "name": "한전기술",
       "date": "20260915",
-      "frgn_ntby_tr_pbmn": "-2467",
-      "orgn_ntby_tr_pbmn": "3795",
-      "prsn_ntby_tr_pbmn": "-2405"
+      "frgn_ntby_tr_pbmn": "-2065",
+      "orgn_ntby_tr_pbmn": "3733",
+      "prsn_ntby_tr_pbmn": "-2825"
     },
     "267260": {
       "name": "HD현대일렉트릭",
       "date": "20260915",
-      "frgn_ntby_tr_pbmn": "-35459",
-      "orgn_ntby_tr_pbmn": "-480",
-      "prsn_ntby_tr_pbmn": "35712"
+      "frgn_ntby_tr_pbmn": "-35355",
+      "orgn_ntby_tr_pbmn": "-803",
+      "prsn_ntby_tr_pbmn": "35928"
     },
     "084370": {
       "name": "유진테크",
       "date": "20260915",
-      "frgn_ntby_tr_pbmn": "-899",
-      "orgn_ntby_tr_pbmn": "108",
-      "prsn_ntby_tr_pbmn": "826"
+      "frgn_ntby_tr_pbmn": "-863",
+      "orgn_ntby_tr_pbmn": "150",
+      "prsn_ntby_tr_pbmn": "748"
     },
     "042700": {
       "name": "한미반도체",
       "date": "20260915",
-      "frgn_ntby_tr_pbmn": "-17087",
-      "orgn_ntby_tr_pbmn": "-17688",
-      "prsn_ntby_tr_pbmn": "34751"
+      "frgn_ntby_tr_pbmn": "-16849",
+      "orgn_ntby_tr_pbmn": "-17783",
+      "prsn_ntby_tr_pbmn": "34586"
     },
     "067310": {
       "name": "하나마이크론",
       "date": "20260915",
-      "frgn_ntby_tr_pbmn": "2900",
-      "orgn_ntby_tr_pbmn": "-1832",
-      "prsn_ntby_tr_pbmn": "-728"
+      "frgn_ntby_tr_pbmn": "2901",
+      "orgn_ntby_tr_pbmn": "-1770",
+      "prsn_ntby_tr_pbmn": "-793"
     },
     "095610": {
       "name": "테스",
       "date": "20260915",
       "frgn_ntby_tr_pbmn": "1257",
-      "orgn_ntby_tr_pbmn": "-3163",
-      "prsn_ntby_tr_pbmn": "1308"
+      "orgn_ntby_tr_pbmn": "-3162",
+      "prsn_ntby_tr_pbmn": "1306"
     },
     "356860": {
       "name": "티엘비",
       "date": "20260915",
-      "frgn_ntby_tr_pbmn": "7922",
+      "frgn_ntby_tr_pbmn": "7960",
       "orgn_ntby_tr_pbmn": "-1889",
-      "prsn_ntby_tr_pbmn": "-6010"
+      "prsn_ntby_tr_pbmn": "-6048"
     },
     "329180": {
       "name": "HD현대중공업",
       "date": "20260915",
-      "frgn_ntby_tr_pbmn": "-4110",
-      "orgn_ntby_tr_pbmn": "-23762",
-      "prsn_ntby_tr_pbmn": "27824"
+      "frgn_ntby_tr_pbmn": "-4025",
+      "orgn_ntby_tr_pbmn": "-23928",
+      "prsn_ntby_tr_pbmn": "27863"
     },
     "010140": {
       "name": "삼성중공업",
       "date": "20260915",
-      "frgn_ntby_tr_pbmn": "-35860",
-      "orgn_ntby_tr_pbmn": "-11995",
-      "prsn_ntby_tr_pbmn": "46994"
+      "frgn_ntby_tr_pbmn": "-35855",
+      "orgn_ntby_tr_pbmn": "-12165",
+      "prsn_ntby_tr_pbmn": "47159"
     },
     "066570": {
       "name": "LG전자",
       "date": "20260915",
-      "frgn_ntby_tr_pbmn": "34668",
-      "orgn_ntby_tr_pbmn": "-1113",
-      "prsn_ntby_tr_pbmn": "-32745"
+      "frgn_ntby_tr_pbmn": "34645",
+      "orgn_ntby_tr_pbmn": "-1402",
+      "prsn_ntby_tr_pbmn": "-32443"
     },
     "011070": {
       "name": "LG이노텍",
       "date": "20260915",
-      "frgn_ntby_tr_pbmn": "7146",
-      "orgn_ntby_tr_pbmn": "-11921",
-      "prsn_ntby_tr_pbmn": "4322"
+      "frgn_ntby_tr_pbmn": "7125",
+      "orgn_ntby_tr_pbmn": "-12013",
+      "prsn_ntby_tr_pbmn": "4435"
     },
     "009150": {
       "name": "삼성전기",
       "date": "20260915",
-      "frgn_ntby_tr_pbmn": "26047",
-      "orgn_ntby_tr_pbmn": "-76063",
-      "prsn_ntby_tr_pbmn": "47561"
+      "frgn_ntby_tr_pbmn": "25762",
+      "orgn_ntby_tr_pbmn": "-77067",
+      "prsn_ntby_tr_pbmn": "48335"
     },
     "006400": {
       "name": "삼성SDI",
       "date": "20260915",
-      "frgn_ntby_tr_pbmn": "35211",
-      "orgn_ntby_tr_pbmn": "-2370",
-      "prsn_ntby_tr_pbmn": "-32771"
+      "frgn_ntby_tr_pbmn": "35399",
+      "orgn_ntby_tr_pbmn": "-2825",
+      "prsn_ntby_tr_pbmn": "-32499"
     },
     "006360": {
       "name": "GS건설",
       "date": "20260915",
-      "frgn_ntby_tr_pbmn": "-4850",
+      "frgn_ntby_tr_pbmn": "-4829",
       "orgn_ntby_tr_pbmn": "14859",
-      "prsn_ntby_tr_pbmn": "-10098"
+      "prsn_ntby_tr_pbmn": "-10079"
     },
     "028260": {
       "name": "삼성물산",
       "date": "20260915",
-      "frgn_ntby_tr_pbmn": "1268",
-      "orgn_ntby_tr_pbmn": "-14633",
-      "prsn_ntby_tr_pbmn": "13080"
+      "frgn_ntby_tr_pbmn": "1298",
+      "orgn_ntby_tr_pbmn": "-15076",
+      "prsn_ntby_tr_pbmn": "13493"
     },
     "000150": {
       "name": "두산",
       "date": "20260915",
-      "frgn_ntby_tr_pbmn": "-2696",
-      "orgn_ntby_tr_pbmn": "1506",
-      "prsn_ntby_tr_pbmn": "968"
+      "frgn_ntby_tr_pbmn": "-2652",
+      "orgn_ntby_tr_pbmn": "1399",
+      "prsn_ntby_tr_pbmn": "994"
     },
     "034020": {
       "name": "두산에너빌리티",
       "date": "20260915",
-      "frgn_ntby_tr_pbmn": "-39337",
-      "orgn_ntby_tr_pbmn": "-27958",
-      "prsn_ntby_tr_pbmn": "67284"
+      "frgn_ntby_tr_pbmn": "-39267",
+      "orgn_ntby_tr_pbmn": "-28436",
+      "prsn_ntby_tr_pbmn": "67704"
     },
     "010060": {
       "name": "OCI홀딩스",
       "date": "20260915",
-      "frgn_ntby_tr_pbmn": "8394",
-      "orgn_ntby_tr_pbmn": "-6010",
-      "prsn_ntby_tr_pbmn": "-1721"
+      "frgn_ntby_tr_pbmn": "8397",
+      "orgn_ntby_tr_pbmn": "-6044",
+      "prsn_ntby_tr_pbmn": "-1690"
     },
     "023160": {
       "name": "태광",
       "date": "20260915",
-      "frgn_ntby_tr_pbmn": "-461",
-      "orgn_ntby_tr_pbmn": "2014",
-      "prsn_ntby_tr_pbmn": "-1463"
+      "frgn_ntby_tr_pbmn": "-447",
+      "orgn_ntby_tr_pbmn": "2015",
+      "prsn_ntby_tr_pbmn": "-1477"
     },
     "014620": {
       "name": "성광벤드",
       "date": "20260915",
-      "frgn_ntby_tr_pbmn": "-1638",
-      "orgn_ntby_tr_pbmn": "965",
-      "prsn_ntby_tr_pbmn": "682"
+      "frgn_ntby_tr_pbmn": "-1648",
+      "orgn_ntby_tr_pbmn": "977",
+      "prsn_ntby_tr_pbmn": "681"
     },
     "003490": {
       "name": "대한항공",
       "date": "20260915",
-      "frgn_ntby_tr_pbmn": "1599",
-      "orgn_ntby_tr_pbmn": "987",
-      "prsn_ntby_tr_pbmn": "-2411"
+      "frgn_ntby_tr_pbmn": "1602",
+      "orgn_ntby_tr_pbmn": "815",
+      "prsn_ntby_tr_pbmn": "-2243"
     },
     "214450": {
       "name": "파마리서치",
       "date": "20260915",
-      "frgn_ntby_tr_pbmn": "76",
-      "orgn_ntby_tr_pbmn": "-624",
-      "prsn_ntby_tr_pbmn": "658"
+      "frgn_ntby_tr_pbmn": "-11",
+      "orgn_ntby_tr_pbmn": "-575",
+      "prsn_ntby_tr_pbmn": "696"
     }
   }
 }
