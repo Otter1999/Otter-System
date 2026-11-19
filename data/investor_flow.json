@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T16:11:23Z",
+  "updated_at": "2026-11-19T02:46:09Z",
   "results": {
     "015760": {
       "name": "한국전력",
@@ -24,12 +24,10 @@
     },
     "084370": {
       "name": "유진테크",
-      "failed": true,
-      "last_error": {
-        "rt_cd": "1",
-        "msg_cd": "OPSQ0008",
-        "msg1": "호출 후처리(MCI전송) 오류 입니다."
-      }
+      "date": "20261118",
+      "frgn_ntby_tr_pbmn": "-122",
+      "orgn_ntby_tr_pbmn": "443",
+      "prsn_ntby_tr_pbmn": "-357"
     },
     "042700": {
       "name": "한미반도체",
